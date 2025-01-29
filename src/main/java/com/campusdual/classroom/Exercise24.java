@@ -25,9 +25,11 @@ public class Exercise24 {
     }
 
     public static void main(String[] args) {
-        Queue<String> queue = createQueue();//Creamos e poblamos a cola
-        printAndEmptyQueue(queue);//Imprimimos e vaciamos a cola
+        //Queue<String> queue = createQueue();  Creamos e poblamos a cola
+        //printAndEmptyQueue(queue);  Imprimimos e vaciamos a cola
 
+        //isto pódese refactorizar
+        printAndEmptyQueue(createQueue());
     }
 
 }
